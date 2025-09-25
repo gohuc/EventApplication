@@ -44,7 +44,8 @@ class MainActivity : ComponentActivity() {
         if (name.isNotEmpty()) {
 
             butn.visibility = View.GONE
-            txtComment.visibility = View.GONE
+            editTextName.visibility = View.GONE
+            imgRobot.visibility = View.VISIBLE
 
             txtComment.text = "Поздравляю, $name, Вы сели"
         } else {
